@@ -35,14 +35,14 @@ Mqtt\AppServer::run($config);
 
 ```c
 root@5ef6b759adf0:/var/www/PHP/laravel-MQTT/src/mqtt# php Test.php mqtt:start
-            _
-           | |
-  _ __ ___ | |_ __ _  __ _
- | '_ ` _ \| __/ _` |/ _` |
- | | | | | | || (_| | (_| |
- |_| |_| |_|\__\__, |\__, |
-                  | |   | |
-                  |_|   |_|       Version: 1.0.3
+                  _   _   
+                 | | | |  
+  _ __ ___   __ _| |_| |_ 
+ | '_ ` _ \ / _` | __| __|
+ | | | | | | (_| | |_| |_ 
+ |_| |_| |_|\__, |\__|\__|
+               | |        
+               |_|           Version: 1.0.3
 [2020-07-24 17:20:40] [INFO] Swoole MQTT Server running：mqtt://0.0.0.0:8080
 
 ```
