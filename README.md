@@ -46,4 +46,10 @@ root@5ef6b759adf0:/var/www/PHP/laravel-MQTT/src/mqtt# php Test.php mqtt:start
 [2020-07-24 17:20:40] [INFO] Swoole MQTT Server running：mqtt://0.0.0.0:8080
 
 ```
+###安装
+可以通过 composer 进行安装。
+
+```c
+$ composer require zhangxiuyu/laravel-mqtt
+```
 
