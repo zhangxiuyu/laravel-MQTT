@@ -1,5 +1,6 @@
 {
     "name": "zhangxiuyu/laravel-mqtt",
+    "version": "1.0.3",
     "description": "This is mqtt",
     "type": "1",
     "keywords": [
