@@ -46,10 +46,16 @@ root@5ef6b759adf0:/var/www/PHP/laravel-MQTT/src/mqtt# php Test.php mqtt:start
 [2020-07-24 17:20:40] [INFO] Swoole MQTT Server running：mqtt://0.0.0.0:8080
 
 ```
-###安装
+### 安装
 可以通过 composer 进行安装。
 
 ```c
 $ composer require zhangxiuyu/laravel-mqtt
 ```
+demo在 项目 server/Test.php 文件中 可以根据文件配置 对象
+
+最后执行你的文件即可， 建议放在项目的bin 目录中
+命令：
+php bin/xxx.php  mqtt:start
+
 
