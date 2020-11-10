@@ -4,8 +4,50 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d5286f8d2806294c0d77d898d752727f",
+    "content-hash": "e4f140f60cb5e28e6edd68f168cb13aa",
     "packages": [
+        {
+            "name": "bluerhinos/phpmqtt",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/bluerhinos/phpMQTT.git",
+                "reference": "7a9d6b26f19e0298e0bef8f873038ab823fb79af"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/bluerhinos/phpMQTT/zipball/7a9d6b26f19e0298e0bef8f873038ab823fb79af",
+                "reference": "7a9d6b26f19e0298e0bef8f873038ab823fb79af",
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
+            },
+            "require": {
+                "php": ">=7.2"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Bluerhinos\\": "./"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD"
+            ],
+            "authors": [
+                {
+                    "name": "Andrew Milsted",
+                    "email": "andrew@bluerhinos.co.uk"
+                }
+            ],
+            "description": "Simple MQTT Class",
+            "time": "2020-04-19T17:42:58+00:00"
+        },
         {
             "name": "swoole/ide-helper",
             "version": "dev-master",
@@ -51,6 +93,7 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
+        "bluerhinos/phpmqtt": 20,
         "swoole/ide-helper": 20
     },
     "prefer-stable": false,

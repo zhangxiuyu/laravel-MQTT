@@ -9,6 +9,7 @@
     "require": {
         "php": ">= 7.1",
         "ext-swoole": ">=4.4",
+        "bluerhinos/phpmqtt": "@dev",
         "swoole/ide-helper": "@dev"
     },
     "license": "Apache-2.0",
